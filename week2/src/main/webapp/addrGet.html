@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- addrGet.html -->
+	<!-- 요청을 보낼 때는 반드시 form 태그 이용 -->
+	<form action="Address" method="get"> <!-- action - 페이지 주소 , method - get,post-->
+		<p>이름 : <input type="text" name="name"></p> <!-- input type - 입력 타입 -->
+		<p>주소 : <input type="text" name="addr"></p> <!-- name - 입력타입에 입력한 태그 이름 -->
+		<p><input type="submit" value="확인"></p> <!-- submit - 요청을 servlet에 전송하는 태그 -->
+	<!-- 즉 action태그에 페이지 주소 입력 -> method 타입 설정(get,post) _> input 타입 지정 -> 
+		 네임 태그 설정 -> submit 지정 -> value 값 지정 -->
+	</form>
+</body>
+</html>
